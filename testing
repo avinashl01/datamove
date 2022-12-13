@@ -1,0 +1,15 @@
+import unittest
+
+from my_sum import sum
+
+#Always unittest file should be with in class and methods
+class TestSum(unittest.TestCase): 
+"""
+        Test that it can sum a list of integers
+        """
+    def setUp(self):
+        pass
+# this methods runs before running every testcase method give attributes which can be used by all testcases ,instead of giving in each method
+    def tearDown(self):
+    pass 
+# this method is executed after every testcase method
